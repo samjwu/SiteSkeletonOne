@@ -1,19 +1,9 @@
-var $select = $("<select></select>");
+$(document).ready(function() {
 
-$("#main").append($select);
+    $(".button").click(function() {
+        $("html, body").animate({
+            scrollTop: $(".about").offset().top
+        }, 500);
+    });
 
-$select.change(function() {
-    window.location = $select.val();
-});
-
-$("#main a").each(function() {
-    var $option = $("<option></option>");
-    $option.val($(this).attr("href"));
-    $option.text($(this).text());
-
-    if($(this).parent().hasClass("highlight")) {
-        $option.prop("selected", true);
-    }
-
-    $select.append($option);
 });
