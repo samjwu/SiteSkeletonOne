@@ -4,4 +4,4 @@ This skeleton site is a one page template to allow content creators to easily ad
 
 See it here: https://samjwu.github.io/SiteSkeletonOne/
 
-!(siteskeletonone)[siteskeletonone.PNG]
+![siteskeletonone](siteskeletonone.PNG)
